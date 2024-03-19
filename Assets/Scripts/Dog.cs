@@ -13,4 +13,9 @@ public class Dog : Pet
     {
         Debug.Log("Guauh");
     }
+
+    public Dog GiveBirth(string name)
+    {
+        return new Dog(name + ", son of " + this.name);
+    }
 }
