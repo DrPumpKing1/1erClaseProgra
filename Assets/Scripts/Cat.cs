@@ -18,7 +18,7 @@ public class Cat : Pet
     {
         float win = Random.Range(0f, 1f);
 
-        if (win <= .5f) Debug.Log("Dogs win!");
-        else Debug.Log("Cats win!");
+        if (win <= .5f) Debug.Log($"Win {other.name} from dogs!");
+        else Debug.Log($"Win {this.name} from cats!");
     }
 }
