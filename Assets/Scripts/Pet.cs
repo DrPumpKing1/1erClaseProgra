@@ -10,4 +10,9 @@ public class Pet
     {
         this.name = name;
     }
+
+    protected virtual void MakeSound()
+    {
+
+    }
 }
