@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pet
 {
-    protected string name { get; private set; }
+    public string name { get; private set; }
 
     public Pet(string name)
     {
